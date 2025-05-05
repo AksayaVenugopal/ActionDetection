@@ -7,7 +7,7 @@ from collections import deque
 import datetime
 
 # Load YOLOv8 Pose model
-model = YOLO("yolov8n-pose.pt").to("cpu")  # Running on CPU
+model = YOLO("yolov8n-pose.pt").to("cpu")  
 
 # Open Camera
 cap = cv2.VideoCapture(0)  # Use 0 for default webcam
